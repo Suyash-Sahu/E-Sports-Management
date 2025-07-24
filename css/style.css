@@ -1,0 +1,105 @@
+/* Custom styles for E-Sports Hub */
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/gaming-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    margin-bottom: 50px;
+
+}
+
+/* Card Hover Effects */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    
+}   
+
+/* Custom Button Styles */
+.btn-primary {
+    background-color: #4a00e0;
+    border-color: #4a00e0;
+}
+
+.btn-primary:hover {
+    background-color: #3a00b0;
+    border-color: #3a00b0;
+}
+
+/* Form Styles */
+.form-control:focus {
+    border-color: #4a00e0;
+    box-shadow: 0 0 0 0.2rem rgba(74, 0, 224, 0.25);
+}
+
+/* Tournament Card Styles */
+.tournament-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tournament-card .card-header {
+    background-color: #4a00e0;
+    color: white;
+}
+
+/* Badge Styles */
+.badge-custom {
+    background-color: #4a00e0;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+
+/* Profile Section */
+.profile-section {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Animation for Icons */
+.fa-3x {
+    transition: transform 0.3s ease;
+}
+
+.fa-3x:hover {
+    transform: scale(1.1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4a00e0;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3a00b0;
+} 
